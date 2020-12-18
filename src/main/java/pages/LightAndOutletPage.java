@@ -1,4 +1,4 @@
-package page;
+package pages;
 
 public class LightAndOutletPage extends BasePage{
 

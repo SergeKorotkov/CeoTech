@@ -1,8 +1,8 @@
 package steps;
 
 import static constans.Constants.*;
-import page.BasePage;
-import page.MainPage;
+import pages.BasePage;
+import pages.MainPage;
 import utils.SharedDriver;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
@@ -79,5 +79,50 @@ public class TopMenuStep {
     public void verifyThatAddressOpenedPageIsCorrect(String expected) {
         String url = driver.getCurrentUrl();
         assertEquals(expected, url);
+    }
+
+    @And("verify  that  MAIN_PAGE_TITLE the page is  correct")
+    public void verifyThatThePageIsCorrect() {
+        assertTrue(basePage.isElementExist(MAIN_PAGE_TITLE));
+    }
+
+    @And("verify  that  ABOUT_PAGE_TITLE the page is  correct")
+    public void verifyThatABOUT_PAGE_TITLEThePageIsCorrect() {
+        assertTrue(basePage.isElementExist(ABOUT_PAGE_TITLE));
+    }
+
+    @And("verify  that  CONTACT_PAGE_TITLE the page is  correct")
+    public void verifyThatCONTACT_PAGE_TITLEThePageIsCorrect() {
+        assertTrue(basePage.isElementExist(CONTACT_PAGE_TITLE));
+    }
+
+    @And("verify  that  AIRFLOW_PAGE_TITLE the page is  correct")
+    public void verifyThatAIRFLOW_PAGE_TITLEThePageIsCorrect() {
+        assertTrue(basePage.isElementExist(AIRFLOW_PAGE_TITLE));
+    }
+
+    @And("verify  that  PLANT_PAGE_TITLE the page is  correct")
+    public void verifyThatPLANT_PAGE_TITLEThePageIsCorrect() {
+        assertTrue(basePage.isElementExist(PLANT_PAGE_TITLE));
+    }
+
+    @And("verify  that  ROOF_PAGE_TITLE the page is  correct")
+    public void verifyThatROOF_PAGE_TITLEThePageIsCorrect() {
+        assertTrue(basePage.isElementExist(ROOF_PAGE_TITLE));
+    }
+
+    @And("verify  that  LIGHT_PAGE_TITLE the page is  correct")
+    public void verifyThatLIGHT_PAGE_TITLEThePageIsCorrect() {
+        assertTrue(basePage.isElementExist(LIGHT_PAGE_TITLE));
+    }
+
+    @And("verify  that  HOME_SECURITY_PAGE_TITLE the page is  correct")
+    public void verifyThatHOME_SECURITY_PAGE_TITLEThePageIsCorrect() {
+        assertTrue(basePage.isElementExist(HOME_SECURITY_PAGE_TITLE));
+    }
+
+    @And("verify  that  SMART_PAGE_TITLE the page is  correct")
+    public void verifyThatSMART_PAGE_TITLEThePageIsCorrect() {
+        assertTrue(basePage.isElementExist(SMART_PAGE_TITLE));
     }
 }

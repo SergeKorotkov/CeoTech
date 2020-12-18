@@ -1,4 +1,4 @@
-package page;
+package pages;
 
 public class AboutPage extends BasePage{
     public final static String ABOUT_PAGE_TITLE = "//h2[text()='About the company']";

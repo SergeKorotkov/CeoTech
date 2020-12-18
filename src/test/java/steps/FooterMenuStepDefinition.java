@@ -1,7 +1,7 @@
 package steps;
 import static constans.Constants.*;
-import page.BasePage;
-import page.MainPage;
+import pages.BasePage;
+import pages.MainPage;
 import utils.SharedDriver;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;

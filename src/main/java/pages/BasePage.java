@@ -1,4 +1,4 @@
-package page;
+package pages;
 
 import utils.SharedDriver;
 import org.openqa.selenium.By;
@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import javax.xml.xpath.XPath;
 import java.util.List;
 
 import static constans.Constants.*;
@@ -19,6 +20,15 @@ public class BasePage {
     public boolean isElementExist(String xpath) {
         try {
             driver.findElement(By.xpath(xpath));
+
+            return true;
+        } catch (Exception err) {
+            return false;
+        }
+    }
+    public boolean isElementXPathExist(XPath xpath) {
+        try {
+            driver.findElement(By.xpath(String.valueOf(xpath)));
 
             return true;
         } catch (Exception err) {

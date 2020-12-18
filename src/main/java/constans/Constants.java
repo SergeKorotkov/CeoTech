@@ -34,5 +34,13 @@ public class Constants {
         public final static String OUR_TEAM_TITLE= "//h2[@class='font-weight-bold text-left'][text()='Our team']";
         public final static String BOARD_OF_ADVISORS_TITLE= "//h2[@class='font-weight-bold text-left'][text()='Board of Advisors']";
         public final static String CAREER_TITLE= "//h2[@class='font-weight-bold text-left'][text()='Career at Ceotech Inc.']";
-
+        public final static String CONTACT_PAGE_TITLE = "//h1[text()='Contact Us']";
+        public final static String SMART_PAGE_TITLE = "//h1[text()='Smart Integration']";
+        public final static String ROOF_PAGE_TITLE = "//h1[text()='Roof and Gutter Deicing']";
+        public final static String PLANT_PAGE_TITLE = "//h1[text()='Plant Watering']";
+        public final static String LIGHT_PAGE_TITLE = "//h1[text()='Light and Outlet Control']";
+        public final static String HOME_SECURITY_PAGE_TITLE = "//h1[text()='Home Security']";
+        public final static String AIRFLOW_PAGE_TITLE = "//h1[text()='Airflow and Temperature Control']";
+        public final static String ABOUT_PAGE_TITLE = "//h1[text()='About the company']";
+        public final static String MAIN_PAGE_TITLE = "//h1[text()='SmartHome']";
 }

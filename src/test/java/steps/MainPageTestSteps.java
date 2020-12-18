@@ -1,7 +1,7 @@
 package steps;
 
-import page.BasePage;
-import page.MainPage;
+import pages.BasePage;
+import pages.MainPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
