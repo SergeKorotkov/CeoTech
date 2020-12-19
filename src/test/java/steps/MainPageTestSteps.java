@@ -1,5 +1,5 @@
 package steps;
-
+import static constans.Constants.*;
 import pages.BasePage;
 import pages.MainPage;
 import io.cucumber.java.en.And;
@@ -212,5 +212,10 @@ public class MainPageTestSteps {
     @And("Verify that  Smart Integration is exist on footer menu on the main page")
     public void verifyThatSmartIntegrationIsExistOnFooterMenuOnTheMainPage() {
         assertTrue(basePage.isSmartIntegrationFooterExist());
+    }
+
+    @Then("click Toggle menu button")
+    public void clickToggleMenuButton() {
+        basePage.clickElementByXPath(TOGGLE_MENU);
     }
 }
