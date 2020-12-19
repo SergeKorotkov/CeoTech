@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
 //        /TopMenuTest.feature
 //        /FooterMenuTest.feature
-       features = {"src/test/java/resources"},
+//        /MainPageMinimumSizeTest.feature
+       features = {"src/test/java/maxiSize"},
         plugin = {"pretty", "html:target/cucumber-reports/"},
         glue = {"steps"}
 )

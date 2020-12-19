@@ -1,6 +1,7 @@
 package utils;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -46,6 +47,7 @@ public class SharedDriver {
                     driver = new EdgeDriver();
                     break;
             }
+//            driver.manage().window().setSize(new Dimension(920, 1200));
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         }

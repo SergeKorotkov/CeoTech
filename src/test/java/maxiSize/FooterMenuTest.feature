@@ -27,24 +27,31 @@ Feature: CeoTech footer menu  test
   Scenario: Navigate to the main page and footer ROOF & GUTTER DEICING link must navigate to the correct destination:
     Then click footer ROOF & GUTTER DEICING button
     And  verify that address "https://ceotech.ca/roof-gutter-deicing" of opened page is correct
+
   Scenario: Navigate to the main page and footer LIGHT & OUTLET CONTROL link must navigate to the correct destination:
     Then click footer LIGHT & OUTLET CONTROL button
     And  verify that address "https://ceotech.ca/light-outlet-control" of opened page is correct
+
   Scenario: Navigate to the main page and footer HOME SECURITY link must navigate to the correct destination:
     Then click footer HOME SECURITY button
     And  verify that address "https://ceotech.ca/home-security" of opened page is correct
+
   Scenario: Navigate to the main page and  footer SMART INTEGRATION link must navigate to the correct destination:
     Then click footer SMART INTEGRATION button
     And  verify that address "https://ceotech.ca/smart-integration" of opened page is correct
+
   Scenario: Navigate to the main page and  footer Copyright Statement link must navigate to the correct destination:
     Then click footer Copyright Statement button
     And  verify that address "https://ceotech.ca/copyright-statement" of opened page is correct
+
   Scenario: Navigate to the main page and  footer Privacy Policy link must navigate to the correct destination:
     Then click footer Privacy Policy button
     And  verify that address "https://ceotech.ca/privacy-policy" of opened page is correct
+
   Scenario: Navigate to the main page and  footer Press Kit link must navigate to the correct destination:
     Then click footer Press Kit button
     And  verify that address "https://ceotech.ca/press-kit" of opened page is correct
+
   Scenario: Navigate to the main page and  footer Facebook link must navigate to the correct destination:
     Then click footer Facebook icon
     And  verify that address "https://www.facebook.com/ceotech.ca" of opened page is correct
